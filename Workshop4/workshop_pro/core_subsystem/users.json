@@ -1,0 +1,22 @@
+[
+    {
+        "username": "admin",
+        "password": "admin",
+        "email": "admin@gmail.com",
+        "grants": {
+            "add_vehicle": true,
+            "remove_vehicle": true,
+            "search_vehicle": true
+        }
+    },
+    {
+        "username": "user",
+        "password": "user",
+        "email" : "user@gmail.com",
+        "grants": {
+            "add_vehicle": false,
+            "remove_vehicle": false,
+            "search_vehicle": true
+        }
+    }
+]
